@@ -22,3 +22,20 @@ x = {"Muhammad", "Asad", "Muhammad", "Iqran"}       # set
 print(x)
 x = {"name": "Asad", "age" : 25}                    # dictionary
 print(x)
+
+# list in python
+# list is mutable data structure.
+# create an empty list & append diff types of data
+
+nums = []               # empty list
+print(nums)
+nums.append(20)         # add int value
+print(nums)
+nums.append(20.50)      # add float value
+print(nums)
+nums.append("ASAD")     # add string value
+print(nums)
+
+# Input & output
+nums.append(input("Enter item into list: "))
+print(nums)
